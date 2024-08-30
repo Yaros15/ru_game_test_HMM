@@ -1,0 +1,18 @@
+package model.heroes;
+
+public enum Rank {
+
+    STUDENT("Ученик"),
+    ADVANCED("Продвинутый"),
+    EXPERT("Эксперт");
+
+    private String name;
+
+    private Rank(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
