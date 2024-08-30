@@ -1,1 +1,17 @@
+package model;
 
+public enum TypesOfCities {
+
+    CASTLE("Замок"),
+    INFERNO("Инферно");
+
+    private String name;
+
+    private TypesOfCities(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
