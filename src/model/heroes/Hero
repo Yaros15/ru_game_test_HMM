@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class Hero {
 
-    private Fraction fraction;                      // Фракция
+    private TypesOfCities fraction;                 // Фракция
     private String name;                            // Имя героя
     private int level;                              // Уровень героя
     private Specification specification;            // Специализацяи героя
