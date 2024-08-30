@@ -1,1 +1,19 @@
+package model;
 
+public enum Specification {
+
+    POWER("Сила"),
+    INTELLIGENCE("Интелект"),
+    AGILITY("Ловкость");
+
+    private String fullName;
+
+    private Specification(String fullName){
+        this.fullName = fullName;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+}
