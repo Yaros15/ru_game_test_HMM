@@ -12,7 +12,7 @@ public class Hero {
     private int level;                              // Уровень героя
     private Specification specification;            // Специализацяи героя
     private Specification[] basicSpecifications;    // Базовые характеристики героя
-    private Soldier[] army;                         // Армия героя
+    private Warrior[] army;                         // Армия героя
     private int totalMana;                          // Общий объем маны
     private Set<Spell> bookOfSpells;                // Книга заклинаний
     private Artifact[] artifactsOnHero;             // Артефакты на герое
