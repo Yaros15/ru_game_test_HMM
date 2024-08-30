@@ -1,1 +1,8 @@
+package model.heroes;
 
+public class Talent {
+
+    private String name;    // имя таланта
+    private Rank rank;      // рейтинг таланта
+
+}
