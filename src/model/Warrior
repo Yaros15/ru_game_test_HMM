@@ -1,1 +1,12 @@
+package model;
 
+public class Warrior {
+
+    private TypesOfCities typesOfCities;    // из Фракция
+    private String name;                    // имя война
+    private String description;             // Описание война
+    private int lives;                      // Количество жизней 1 юнита
+    private int damage;                     // урон 1 юнита
+    private int numberOfUnits;              // количество юнитов
+
+}
