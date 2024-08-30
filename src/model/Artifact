@@ -1,1 +1,12 @@
+package model;
 
+import java.util.Map;
+
+public class Artifact {
+
+    private String name;                // имя Артефакта
+    private String description;         // Описание Артефакте
+    private Map<String, Integer> improvesIndicator;     // улучшает показатели на размер
+
+
+}
