@@ -1,13 +1,15 @@
-package model;
+package model.heroes;
 
 import model.*;
+import model.user.User;
 
 import java.util.ArrayList;
 import java.util.Set;
 
 public class Hero {
 
-    private TypesOfCities typesOfCities;            // Фракция
+    private TypesOfCities typesOfCities;            // из Фракция
+    private User user;                              // Принадлежит пользователю
     private String name;                            // Имя героя
     private int level;                              // Уровень героя
     private Specification specification;            // Специализацяи героя
