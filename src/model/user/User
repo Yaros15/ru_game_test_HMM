@@ -1,0 +1,18 @@
+package model.user;
+
+import model.TypesOfCities;
+import model.castle.Castle;
+import model.heroes.Hero;
+
+import java.util.ArrayList;
+import java.util.Map;
+
+public class User {
+
+    private String name;    // Имя пользователя
+    private TypesOfCities typesOfCities; // Выбирает фракцию
+    private ArrayList<Castle> castles;  // Список замков в подчинении
+    private ArrayList<Hero> heroes;     // Список героев в подчинении
+    private Map<Resource, Integer> numberResourcesMap;  // список ресурсов у пользователя и их количество
+
+}
