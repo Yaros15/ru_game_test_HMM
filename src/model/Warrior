@@ -5,8 +5,9 @@ public class Warrior {
     private TypesOfCities typesOfCities;    // из Фракция
     private String name;                    // имя война
     private String description;             // Описание война
-    private int lives;                      // Количество жизней 1 юнита
-    private int damage;                     // урон 1 юнита
+    private int livesOne;                   // Количество жизней 1 юнита
+    private int damageOne;                  // урон 1 юнита
+    private int priceOne;                   // цена 1 юнита
     private int numberOfUnits;              // количество юнитов
 
 }
