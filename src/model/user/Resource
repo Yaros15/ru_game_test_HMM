@@ -1,0 +1,15 @@
+package model.user;
+
+public enum Resource {
+
+    GOLD("Золото"),
+    WOOD("Древесина"),
+    ORE("Руда");
+
+    private String name;
+
+    private Resource(String name){
+        this.name = name;
+    }
+
+}
