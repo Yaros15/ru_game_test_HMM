@@ -1,0 +1,12 @@
+package model.castle;
+
+import model.Warrior;
+
+public class HomeOfWarrior {
+
+    private String name;        // имя строения
+    private int level;          // уровень строения
+    private Warrior warrior;    // войн
+
+
+}
