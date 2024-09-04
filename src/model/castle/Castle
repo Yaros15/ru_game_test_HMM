@@ -1,0 +1,13 @@
+package model.castle;
+
+public class Castle {
+
+    private String financialTower;      // финансовая башня
+    private String protectiveTower;     // защитная башня / прирост существ
+    private String tavern;              // Найм героев
+    private String market;              // Рынок
+    private String smithy;              // Кузница
+    private String magicTower;          // Магическая башня
+    private String[] homeOfWarriors;    // Жилище войнов
+
+}
